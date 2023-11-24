@@ -1,6 +1,6 @@
 .ooo{
     color: aliceblue;
-  border: 1px solid white;
+  border: 2px solid aqua;
   text-align: center;
   font-size: 20px;
   margin-top: 3%;
@@ -29,9 +29,9 @@ body{
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.con{
   text-align: center;
-  color: white;
+  color:aqua ;
 }
 
 label {
@@ -47,7 +47,7 @@ textarea {
   padding: 10px;
   margin-bottom: 16px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 2px solid aqua;
   border-radius: 8px;
   font-size: 16px;
 }
@@ -67,4 +67,7 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+.text-right ,.aa {
+  text-align: center;
 }

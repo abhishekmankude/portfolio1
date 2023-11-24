@@ -3,8 +3,9 @@ import "../CSS/Skills.css";
 import '../Images/img1.png';
 function Skills() {
   return (<div>
+    <h2 className="sk">Skills</h2>
     <div className="skills">
-      <h2>SKILLS</h2>
+      
       <ul>
         <li>HTML</li>
         <li>CSS</li>

@@ -57,8 +57,7 @@ function Navbar() {
        : 
        ""
        }
-      
-        
+       
 
       {mobileNavBar ? (
         <div id="mySidebar" className="sidebar">
@@ -94,11 +93,11 @@ function Navbar() {
         :
           <Link className="#contact" to={'/Contact'} onClick={() => hamburger(false)}>Contact</Link>}</li>
           <li>
-             {
+          {
         activeNav=="/Quali"? 
         ""
         :
-        <Link className="#quali" to={'/Quali'} onclick={() =>hamburger(false)}>Qualification</Link>}
+        <Link className="#quali" to={'/Quali'} onClick={() =>hamburger(false)}>Qualification</Link>}
           </li>
         </div>
       ) : 

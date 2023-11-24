@@ -1,11 +1,12 @@
 import React from "react";
 import "../CSS/Aboutus.css";
 import pic from "../Images/myimg.jpg";
+
 function Aboutus() {
   return (
     <div className="about">
       <section class="about-section">
-        <h2>ABOUT</h2>
+        <h1>About</h1>
         <div className="myimg">
           <img src={pic} />
         </div>
@@ -17,6 +18,7 @@ function Aboutus() {
           about
         </p></div>
       </section>
+     
     </div>
   );
 }

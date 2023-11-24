@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Quali from './components/Quali';
+import Footer from './components/Footer';
 function App() {
   return (
    <div className="App">
@@ -18,8 +19,9 @@ function App() {
       <Route path='/Skills' element={<Skills/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Quali' element={<Quali/>}/>
-
+      
     </Routes>
+    <Footer/>
     </BrowserRouter>
     
   
